@@ -24,12 +24,12 @@ import static org.junit.Assert.assertThat;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = Application.class)
 @WebIntegrationTest(randomPort = true)
-public class TranslatorEnpointTest {
+public class TranslatorEndpointTest {
 
 	private Jaxb2Marshaller marshaller = new Jaxb2Marshaller();
 
 	@Value("${local.server.port}")
-	private int port = 0;
+	private int port = 8080;
 
 	@Before
 	public void init() throws Exception {
@@ -43,10 +43,9 @@ public class TranslatorEnpointTest {
 		request.setLangFrom("en");
 		request.setLangTo("es");
 		request.setText("This is a test of translation service");
-		Object response = new WebServiceTemplate(marshaller).marshalSendAndReceive("http://localhost:"
-				+ port + "/ws", request);
+		Object response = new WebServiceTemplate(marshaller).marshalSendAndReceive("http://localhost:"+ port + "/ws", request);
 		assertNotNull(response);
 		assertThat(response, instanceOf(GetTranslationResponse.class));
 		assertThat(((GetTranslationResponse) response).getTranslation(), is("Esto es una prueba de servicio de traducción"));
-	}	
+	}
 }
