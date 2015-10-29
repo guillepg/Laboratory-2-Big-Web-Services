@@ -19,15 +19,9 @@ public class TranslatorServiceTest {
     @Autowired
     TranslatorService translatorService;
     @Test
-    public void translateTest(){
-        try{
-            TranslatedText translatedText = translatorService.translate("en", "es", "Hello");
-            assertEquals("Hola",translatedText.getTranslation());
-        }catch(Exception ex){
-            System.out.println("---------FALLA-----------");
-            ex.printStackTrace();
-        }
-
+    public void translateTest() throws Exception {
+        TranslatedText translatedText = translatorService.translate("en", "es", "This is a test of translation service");
+        assertEquals("Esto es una prueba de servicio de traducción",translatedText.getTranslation());
     }
 
 }
