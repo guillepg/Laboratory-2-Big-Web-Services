@@ -3,4 +3,4 @@ jdk:
 - oraclejdk8
 before_install:
 - openssl aes-256-cbc -K $encrypted_2cd866501c13_key -iv $encrypted_2cd866501c13_iv -in application.properties.enc -out src/main/resources/application.properties
-- gradle check
+- gradle check --stacktrace
