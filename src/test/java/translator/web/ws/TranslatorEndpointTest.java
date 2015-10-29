@@ -42,10 +42,10 @@ public class TranslatorEndpointTest {
 		GetTranslationRequest request = new GetTranslationRequest();
 		request.setLangFrom("en");
 		request.setLangTo("es");
-		request.setText("This is a test of translation service");
+		request.setText("Hello");
 		Object response = new WebServiceTemplate(marshaller).marshalSendAndReceive("http://localhost:"+ port + "/ws", request);
 		assertNotNull(response);
 		assertThat(response, instanceOf(GetTranslationResponse.class));
-		assertThat(((GetTranslationResponse) response).getTranslation(), is("Esto es una prueba de servicio de traducción"));
+		assertThat(((GetTranslationResponse) response).getTranslation(), is("Hola"));
 	}
 }
