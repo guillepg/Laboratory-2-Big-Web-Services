@@ -24,6 +24,7 @@ public class TranslatorServiceTest {
             TranslatedText translatedText = translatorService.translate("en", "es", "Hello");
             assertEquals("Hola",translatedText.getTranslation());
         }catch(Exception ex){
+            System.out.println("---------FALLA AQUI-----------");
             ex.printStackTrace();
         }
 
