@@ -13,7 +13,7 @@ import translator.web.ws.schema.GetTranslationRequest;
 import translator.web.ws.schema.GetTranslationResponse;
 
 @Endpoint
-public class TranslatorEndpoint {
+public class TranslatorEnpoint {
 
 	@Autowired
 	TranslatorService translatorService;

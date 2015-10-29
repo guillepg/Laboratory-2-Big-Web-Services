@@ -24,7 +24,7 @@ import static org.junit.Assert.assertThat;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = Application.class)
 @WebIntegrationTest(randomPort = true)
-public class TranslatorEndpointTest {
+public class TranslatorEnpointTest {
 
 	private Jaxb2Marshaller marshaller = new Jaxb2Marshaller();
 
