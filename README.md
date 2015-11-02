@@ -38,4 +38,4 @@ Rubén Gabás Celimendiz | 590738 | [repo](https://github.com/phyrionX/big-ws) |
 Daniel Forcén Esteban | 558471 | [repo](https://github.com/dforcen/big-ws) | [![Build Status](https://travis-ci.org/dforcen/big-ws.svg?branch=master)](https://travis-ci.org/dforcen/big-ws) | If you have a dream, go chase it. Don´t give up until you grab it. | Si tienes un sueño, ir a cazarlo. No te rindas hasta que lo agarra.
 Ramón José Arellano Bitrián | 594040 
 Daniel Uroz | 545338 | [repo](https://github.com/uZetta27/big-ws) | [![Build Status] (https://travis-ci.org/uZetta27/big-ws.svg?branch=master)](https://travis-ci.org/uZetta27/big-ws) | Those are my principles, and if you don't like them... well, I have others | Esos son mis principios, y si no te gusta... bueno, tengo otros
-Jorge Berdún Udina | 591454 
+Jorge Berdún Udina | 591454 | [repo](https://github.com/Nerok96/big-ws) | [![Build Status] (https://travis-ci.org/Nerok96/big-ws.svg?branch=master)](https://travis-ci.org/Nerok96/big-ws) | I have a green house in a red city within a yellow country. | Tengo una casa verde en una ciudad roja dentro de un amarillo país.
