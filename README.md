@@ -39,4 +39,4 @@ Daniel ForcÃ©n Esteban | 558471
 RamÃ³n JosÃ© Arellano BitriÃ¡n | 594040 
 Daniel Uroz | 545338 | [repo](https://github.com/uZetta27/big-ws) | [![Build Status] (https://travis-ci.org/uZetta27/big-ws.svg?branch=master)](https://travis-ci.org/uZetta27/big-ws) | Those are my principles, and if you don't like them... well, I have others | Esos son mis principios, y si no te gusta... bueno, tengo otros
 Jorge BerdÃºn Udina | 591454 
-Guillermo Perez | 610382 | [repo] (https://github.com/guillepg/big-ws) | [![Build Status] (https://travis-ci.org/guillepg/big-ws.svg?branch=master](https://travis-ci.org/guillepg/big-ws) | Todo es falso, salvo algunas cosas | Everything is false, except for some things
+Guillermo Perez | 610382 | [repo](https://github.com/guillepg/big-ws) | [![Build Status] (https://travis-ci.org/guillepg/big-ws.svg?branch=master)](https://travis-ci.org/guillepg/big-ws) | Todo es falso, salvo algunas cosas | Everything is false, except for some things
